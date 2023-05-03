@@ -32,6 +32,6 @@ body{
     width: 45.2px;
 
     /* background-color: brown; */
-    /* overflow-wrap: normal; */
+overflow: hidden;
 
 }
