@@ -1,3 +1,38 @@
 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    border: 1px solid black;
+    width: 800px;
+    height: 800px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sketch-board{
+    border: 1px solid red;
+    width: 750px;
+    height: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 
 
+}
+
+.one-block{
+    height: 45.2px;
+    border: 1px solid black;
+    width: 45.2px;
+
+    background-color: brown;
+    /* overflow-wrap: normal; */
+
+
+}
