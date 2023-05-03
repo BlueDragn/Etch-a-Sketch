@@ -31,8 +31,8 @@ body{
     border: 1px solid black;
     width: 45.2px;
 
-    background-color: brown;
+    /* background-color: brown; */
     /* overflow-wrap: normal; */
 
-
+color: aqua;
 }
