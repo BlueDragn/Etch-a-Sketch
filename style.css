@@ -15,8 +15,8 @@ body{
 }
 .sketch-board{
     border: 1px solid red;
-    width: 750px;
-    height: 750px;
+    /* width: 750px;
+    height: 750px; */
     display: flex;
     flex-wrap: wrap;
     align-content: center;
