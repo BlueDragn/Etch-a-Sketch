@@ -25,8 +25,13 @@ for (let i = 0; i < 16; i++){
     const oneBlock = document.createElement("div");
     oneBlock.classList.add("one-block")
     mainBlock.appendChild(oneBlock);
-    oneBlock.addEventListener('click', function (e) {
-      e.target.style.background = 'blue';
+    oneBlock.addEventListener('click' , function (e) {
+      if (e.target.style.background === "black"){
+        e.target.style.background = "white"
+      }else{
+        e.target.style.background = 'black';
+      }
+
 
     });
 
